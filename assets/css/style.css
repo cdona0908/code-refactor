@@ -1,3 +1,4 @@
+/*GENERAL*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-/*Styling the header start*/
+/*HEADER STYLE START*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +21,7 @@ header h1 {
     font-size: 48px;
 }
 
-.seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -41,7 +42,9 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/*Styling the header end*/
+/*HEADER STYLE END*/
+
+/*TEXT STYLES*/
 
 a {
     color: #ffffff;
@@ -51,7 +54,7 @@ a {
 p {
     font-size: 16px;
 }
-/*Styling the hero section start*/
+/*HERO SECTION STYLE*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,9 +63,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*Styling the hero section end*/
-
-/*Styling the content start*/
+/*CONTENT SECTION STYLE START*/
 
 .content {
     width: 75%;
@@ -70,7 +71,7 @@ p {
     margin-left: 20px;
 }
 
-.articles {
+.Services{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -79,7 +80,7 @@ p {
     color: #ffffff;
 }
 
-.articles img {
+.Services img {
     max-height: 200px;
 }
 
@@ -93,12 +94,14 @@ p {
     margin-left: 25px;
 }
 
-.articles h2 {
+.Services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Styling the aside section start*/
+/*CONTENT SECTION STYLE END*/
+
+/*ASIDE-BENEFITS STYLE START*/
 
 aside {
     margin-right: 20px;
@@ -127,9 +130,9 @@ aside {
     max-width: 150px;
 }
 
-/*Styling the aside section end*/
+/*ASIDE-BENEFITS STYLE END*/
 
-/*Styling the footer start*/
+/*FOOTER*/
 footer {
     padding: 30px;
     clear: both;
@@ -144,4 +147,3 @@ footer h2 {
 .emoji {
     font-weight: 100;
 }
-/*Styling the footer end*/
